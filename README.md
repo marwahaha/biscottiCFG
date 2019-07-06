@@ -79,7 +79,7 @@ These are the helpful parts of the config. Basically just a quick way to alert y
 
 You can call out what class the enemy spy is currently disguised at by holding `ALT` and pressing the `NUMBER KEY` corresponding to the class you want to call. E.g. `ALT + 3` = "Spy is Pyro!"
 
-`ALT` + the numbers on the `NUMPAD` (referred to as `KEYPAD` because I have no regard for consistency) will call out which class is dead. Can also be used to call when the enemy team pops ‹ber, when the sentry goes down, and when you have an advantage in numbers. E.g. `ALT + KEYPAD 7` = "Medic down!"
+`ALT` + the numbers on the `NUMPAD` (referred to as `KEYPAD` because I have no regard for consistency) will call out which class is dead. Can also be used to call when the enemy team pops √úber, when the sentry goes down, and when you have an advantage in numbers. E.g. `ALT + KEYPAD 7` = "Medic down!"
 
 **Class Switch**
 
@@ -180,7 +180,7 @@ Type `nightmare_0` to deactivate all the nightmare loops.
 | `WASD`					| Null-movement																				|
 | `ALT + R`					| Auto-run. Turns `A-D` into a steering wheel. `CTRL + A-D` is air strafe.					|
 | `ALT + [NUMBER KEY]`		| Say in team chat: "Spy is [Corresponding Class]!"											|
-| `ALT + E`					| Ask for ‹ber-Charge.																		|
+| `ALT + E`					| Ask for √úber-Charge.																		|
 | `ATTACKING with HITSCAN`	| Hides the viewmodel when shooting. See the specific classes for more info. Switching weapons brings it back. |
 | `ALT + ATTACKING`			| Disables this feature. The viewmodel stays on the screen for as long as you hold `ALT`.	|
 | **KEYPAD**				|																							|
@@ -191,7 +191,7 @@ Type `nightmare_0` to deactivate all the nightmare loops.
 | `ALT + KEYPAD 1-9`		| Say in chat: "[Corresponding class] down!"												|
 | `ALT + KEYPAD PLUS`		| Say in chat: "Sentry down!"																|
 | `ALT + KEYPAD 0`			| Say in chat that you have numbers and that they should push.								|
-| `ALT + KEYPAD DEL`		| Say in chat that the enemy team popped ‹ber and that they should retreat.					|
+| `ALT + KEYPAD DEL`		| Say in chat that the enemy team popped √úber and that they should retreat.					|
 | `KEYPAD 0 + KEYPAD 1-9`	| Switch to corresponding class.															|
 | **LOADOUT + INVENTORY**	|																							|
 | `CROUCH + N`				| Item Quickswitch toggle. Press `N`, `CROUCH + N`, or `ALT` to close it again.	The crouch button depends on the a previous bind. Use `ctrlcrouch` or `shiftcrouch` to change. By default, crouch is now `SHIFT`.			|
@@ -505,7 +505,7 @@ The commands to toggle this on/off are `invmed_t1` and `invmed_t0` respectively.
 
 **Pop**
 
-When you press `mouse2` (right-click) with any weapon, you will switch to the medigun, attempt to pop ‹ber, and say in team chat "~ ~ FRIENDLY UBER POPPED ~ ~". You have to hold `mouse2` for about a second while switching weapons for it to properly pop the ‹ber, but it works instantaneously when you're already on the Medigun.
+When you press `mouse2` (right-click) with any weapon, you will switch to the medigun, attempt to pop √úber, and say in team chat "~ ~ FRIENDLY UBER POPPED ~ ~". You have to hold `mouse2` for about a second while switching weapons for it to properly pop the √úber, but it works instantaneously when you're already on the Medigun.
 
 The message in team chat can be turned on/off with the commands `pop_1` and `pop_0`. `pop_t` toggles it. Turning it off is most commonly used if you use the Quick-Fix or Vaccinator (the Vaccinator script also turns this off) and the pop is therefore not as big of a deal.
 
@@ -519,7 +519,7 @@ It can be turned on/off/toggled with `ndl_1`, `ndl_0`, and `ndl_t`.
 
 **Melee taunt**
 
-Simple. If you hold `ALT` while pressing `mouse2` (right-click) while holding the melee weapon, instead of switching to the Medigun and popping ‹ber (from the Pop script), you'll use the weapon taunt for the melee weapon. This is meant to mimic behaviour added into the game to make is easier to use the Amputator and Ubersaw taunts.
+Simple. If you hold `ALT` while pressing `mouse2` (right-click) while holding the melee weapon, instead of switching to the Medigun and popping √úber (from the Pop script), you'll use the weapon taunt for the melee weapon. This is meant to mimic behaviour added into the game to make is easier to use the Amputator and Ubersaw taunts.
 
 **Radar**
 
@@ -531,11 +531,11 @@ How you would designate it elsewhere in the config is to change the line `alias 
 
 **Team calls**
 
-Pressing `F1` will fake an ‹bercharge callout. Basically, you'll say the voice command for having just gained ‹ber to mislead the enemy. This is rarely if ever used. The exact message is "~ ~ Uber faked.. ~ ~". You can turn the message on/off/toggle with `fake_1`, `fake_0`, and `fake_t`.
+Pressing `F1` will fake an √úbercharge callout. Basically, you'll say the voice command for having just gained √úber to mislead the enemy. This is rarely if ever used. The exact message is "~ ~ Uber faked.. ~ ~". You can turn the message on/off/toggle with `fake_1`, `fake_0`, and `fake_t`.
 
-Pressing `F2` will mask your actual ‹ber callout so that the enemy won't know that you just got ‹ber. This is more commonly used but I still never use it. It also announces in team chat that you now have a full ‹bercharge. The exact message is "~ ~ Uber ready! ~ ~". You can turn the message on/off/toggle with `mask_1`, `mask_0`, and `mask_t`.
+Pressing `F2` will mask your actual √úber callout so that the enemy won't know that you just got √úber. This is more commonly used but I still never use it. It also announces in team chat that you now have a full √úbercharge. The exact message is "~ ~ Uber ready! ~ ~". You can turn the message on/off/toggle with `mask_1`, `mask_0`, and `mask_t`.
 
-Holding `ALT` and pressing `E` will announce in team chat that you're interested in popping the ‹ber. This replaces the script that will ask for an ‹ber to be popped on you (because you're the popper now). The exact message is "I'm about to give you Uber. Get ready!"
+Holding `ALT` and pressing `E` will announce in team chat that you're interested in popping the √úber. This replaces the script that will ask for an √úber to be popped on you (because you're the popper now). The exact message is "I'm about to give you Uber. Get ready!"
 
 You can add more chat lines for the sake of variety and even randomize for line is used by tying it to the `WASD` keys, but this is currently not in the config. It is possible, though, and not that hard to write considering I've done most of the ground work for this type of script. The reason it's currently not a thing is because there's no practical reason to have more lines. It would for just be to add more flavour.
 
@@ -555,12 +555,12 @@ This is a script for switching resistances using the thumb buttons on the mouse.
 
 | Binds					| Description |
 |:---------------------	|:----------- |
-| `F1`					| ‹ber Fake to mislead the enemy team. Message can be toggled on/off with `fake_1`, `fake_0`, and `fake_t`. |
-| `F2`					| ‹ber Mask to hide information from the enemy team. Message can be toggled on/off with `mask_1`, `mask_0`, and `mask_t`. |
-| `MOUSE2` - any weapon	| Switches to Medigun, pops ‹ber, and alerts your team. Message can be toggled on/off with `pop_1`, `pop_0`, and `pop_t`. |
+| `F1`					| √úber Fake to mislead the enemy team. Message can be toggled on/off with `fake_1`, `fake_0`, and `fake_t`. |
+| `F2`					| √úber Mask to hide information from the enemy team. Message can be toggled on/off with `mask_1`, `mask_0`, and `mask_t`. |
+| `MOUSE2` - any weapon	| Switches to Medigun, pops √úber, and alerts your team. Message can be toggled on/off with `pop_1`, `pop_0`, and `pop_t`. |
 | `ALT + MOUSE1` - primary + melee | Switches to Medigun after firing. Tap for instant switch. Used for crossbow. Can be toggled on/off with `ndl_1`, `ndl_0`, and `ndl_t`. |
 | `ALT + MOUSE2` - melee	| Uses melee weapon taunt. |
-| `ALT + E`				| Alerts your heal target in team chat that you want to pop ‹ber. |
+| `ALT + E`				| Alerts your heal target in team chat that you want to pop √úber. |
 | `ALT + THUMB BUTTONS`	| When Vaccinator is enabled, these will switch to different resistances when pressed multiple times. |
 | `KEYPAD 0`			| Resets the Vaccinator script back to the Bullet resistance state. Switch to the bullet resistance, then press the reset to re-sync the script. |
 | `SHIFT/CTRL`			| Radar script to locate teammates through walls. Disabled in matchmaking. The default bind is `CTRL` because the `shiftcrouch` setting is active. |
@@ -673,7 +673,7 @@ Holding `ALT` and pressing `thumb buttons` will change your disguise weapon corr
 | **`MOUSE5` (top thumb button)**		| Disguise Weapon 2	| Disguise Weapon 1		| Disguise Weapon 1 |
 | **`MOUSE4` (bottom thumb button)**	| Disguise Weapon 3	| Disguise Weapon 3		| Disguise Weapon 2 |
 
-This script relies on the release of the button to bring you back to your current weapon, but because it happens so quickly, sometimes something goes wrong and it might not actually switch your disguise weapon properly. You shouldn't end up with a different *actual* weapon, but the disguise weapon might not be what you wnated all the time, so in those cases, you'd have to press the button multiple times to get the desired disguise weapon. To combat this I've also written a version that instead relies on `wait` to make sure that all commands happen in the right order at a set pace as opposed to tying it to you releasing the button. The problem is that `wait` is inherently unreliable at timing since it's tied to your own framerate. Because of this I've disabled the `wait` version by default, but you can enable it in the config. The exact timing values depend on your framerate, and if the timing is off and you press the button too quickly, then you could end up with the wrong weapon equipped which is way worse than just the wrong disguise weapon.
+This script relies on the release of the button to bring you back to your current weapon, but because it happens so quickly, sometimes something goes wrong and it might not actually switch your disguise weapon properly. You shouldn't end up with a different *actual* weapon, but the disguise weapon might not be what you wanted all the time, so in those cases, you'd have to press the button multiple times to get the desired disguise weapon. To combat this I've also written a version that instead relies on `wait` to make sure that all commands happen in the right order at a set pace as opposed to tying it to you releasing the button. The problem is that `wait` is inherently unreliable at timing since it's tied to your own framerate. Because of this I've disabled the `wait` version by default, but you can enable it in the config. The exact timing values depend on your framerate, and if the timing is off and you press the button too quickly, then you could end up with the wrong weapon equipped which is way worse than just the wrong disguise weapon.
 
 Back to the config features! If you hold `ALT` while using the `mousewheel` it will also change the disguise weapon alongside your own weapon. It also makes the mousewheel cycle around at 1 and 3, i.e. when you scroll down on 3, it goes to 1, and when you scroll up at 1, it goes to 3. This is not the normal behaviour. Use this to make your disguise more believable by changing weapons a lot more than other spies would. OIr not, it's kind of impractical to do because you can't attack at all and might even lose track of what weapon you have out, but it's kind of cool, and it's fun using this to mess with people at the setup gate.
 
@@ -767,7 +767,7 @@ To toggle the script, and turn it on/off use the commands `sht_ding_t`, `sht_din
 | `sht_ding_pres` alias (timing presets)	| `sht_ding_amby` timing of 0.95 sec (default). `sht_ding_revo` timing of 1.25 sec. `alias sht_ding_pres [PRESET]` to change. |
 
 # [^](#top "Back to Top")Close Captions
-The initial Close Captions were created by **Clovervidia** and edited by me. That includes all the ones alerting about current events around you, like an ‹ber being popped or a Scout catching fire etc. Most of the voice lines that are set to not say anything were also found by Clovervidia but I continued to support this, updating it as I find more voice lines that need to be taken care of.
+The initial Close Captions were created by **Clovervidia** and edited by me. That includes all the ones alerting about current events around you, like an √úber being popped or a Scout catching fire etc. Most of the voice lines that are set to not say anything were also found by Clovervidia but I continued to support this, updating it as I find more voice lines that need to be taken care of.
 
 All the script-specific captions, like alerting you when engaging certain presets, were made by me.
 
